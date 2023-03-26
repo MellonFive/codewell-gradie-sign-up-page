@@ -10,21 +10,28 @@ body {
 
 main{
   display: flex;
+  position: relative;
 }
 
-/* .frame-div{
+.frame-div{
   background-color: #013243;
-  margin: auto;
+  margin: 0;
   width: 50%;
   padding: 10px;
-} */
-/* 
+}
+
 .frame-divimg{
-  width: 60%;
-  height: 60%;
+  /* width: 50%;
+  height: 100%; */
   margin-right: auto;
 }
 
 .login-slice{
   background-color: white;
-} */
+}
+
+.link{
+  border: 10px solid red;
+  width: 500px;
+  display: block;
+}
