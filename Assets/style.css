@@ -5,33 +5,47 @@
 }
 
 body {
+  /* colocar fonte roboto */
   background-image: url(./Background.png);
 }
 
-main{
+main {
   display: flex;
-  position: relative;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .frame-div{
   background-color: #013243;
-  margin: 0;
-  width: 50%;
-  padding: 10px;
+  width: 100%;
+  height: 60vh;
+  border-bottom-left-radius: .5rem;
+  border-top-left-radius: .5rem;
+  position: relative;
 }
 
+.frame-div > h1 {
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  color: #FFF;
+  text-transform: capitalize;
+}
+
+/* .frame-div > p {
+  PAREI AQUI
+} */
+
 .frame-divimg{
-  /* width: 50%;
-  height: 100%; */
-  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
 
 .login-slice{
   background-color: white;
-}
-
-.link{
-  border: 10px solid red;
-  width: 500px;
-  display: block;
+  width: 100%;
 }
