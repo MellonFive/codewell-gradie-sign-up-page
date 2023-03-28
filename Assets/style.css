@@ -7,6 +7,8 @@
 body {
   /* colocar fonte roboto */
   background-image: url(./Background.png);
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
 }
 
 main {
@@ -18,34 +20,37 @@ main {
   transform: translate(-50%, -50%);
 }
 
-.frame-div{
+.frame-div {
   background-color: #013243;
   width: 100%;
-  height: 60vh;
+  height: 63vh;
   border-bottom-left-radius: .5rem;
   border-top-left-radius: .5rem;
   position: relative;
 }
 
 .frame-div > h1 {
+  font-size: 1.8rem;
   text-align: center;
-  margin: 2rem 0 1rem 0;
+  margin: 2rem 0 .5rem 0;
   color: #FFF;
-  text-transform: capitalize;
 }
 
-/* .frame-div > p {
-  PAREI AQUI
-} */
+.frame-div > p {
+  text-align: center;
+  color: #FFF;
+  opacity: .5;
+}
 
-.frame-divimg{
+.frame-divimg {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 100%;
+  overflow: hidden;
 }
 
-.login-slice{
+.login-slice {
   background-color: white;
   width: 100%;
 }
