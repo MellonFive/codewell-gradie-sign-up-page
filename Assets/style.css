@@ -83,15 +83,13 @@ main {
 .inside-form input[id=password] {
   margin-top: .5rem;
   padding: .9rem 1rem;
-  width: 85%;
-  transition: 1s;
+  width: 100%;
+  transition: .5s;
   border-radius: .3rem;
 }
 
 .inside-form input[id=email]:hover, 
 .inside-form input[id=password]:hover {
-  margin-top: .7rem;
-  padding: .7rem 1rem;
   border: 2px solid #013243;
 }
 
@@ -99,8 +97,17 @@ main {
   margin-right: .9rem;
 }
 
-.inside-form span {
+/* .inside-form .terms {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+} */
+
+.inside-form .terms span {
+  border: 2px solid red;
+  font-size: .8em;
+  display: inline-block;
 }
 
-.inside-form span strong {
-}
+/* .inside-form span strong {
+} */
