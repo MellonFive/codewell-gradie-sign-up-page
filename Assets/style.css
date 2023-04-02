@@ -59,7 +59,7 @@ main {
 }
 
 .inside-form {
-  width: 80%;
+  width: 70%;
   margin: 2rem auto 0;
 }
 
@@ -81,9 +81,18 @@ main {
 
 .inside-form input[id=email], 
 .inside-form input[id=password] {
+  margin-top: .5rem;
+  padding: .9rem 1rem;
+  width: 85%;
+  transition: 1s;
+  border-radius: .3rem;
+}
+
+.inside-form input[id=email]:hover, 
+.inside-form input[id=password]:hover {
   margin-top: .7rem;
   padding: .7rem 1rem;
-  width: 100%;
+  border: 2px solid #013243;
 }
 
 .inside-form input[type=checkbox] {
@@ -91,9 +100,7 @@ main {
 }
 
 .inside-form span {
-  border: 1px solid red;
 }
 
 .inside-form span strong {
-  border: 2px solid blue;
 }
