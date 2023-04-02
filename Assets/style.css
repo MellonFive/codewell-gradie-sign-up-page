@@ -93,21 +93,31 @@ main {
   border: 2px solid #013243;
 }
 
-.inside-form input[type=checkbox] {
-  margin-right: .9rem;
+.inside-form .terms {
+  margin-bottom: 1.5rem;
 }
 
-/* .inside-form .terms {
-  display: flex;
-  flex-direction: row;
-  place-items: center;
-} */
+.inside-form .terms input {
+  margin-right: .5rem;  
+}
 
 .inside-form .terms span {
-  border: 2px solid red;
-  font-size: .8em;
-  display: inline-block;
+  font-size: .9rem;
 }
 
-/* .inside-form span strong {
-} */
+.inside-form span strong {
+  text-decoration: underline;
+  color: #013243;
+}
+
+.inside-form a {
+  display: block;
+  text-align: center;
+  color: #FFF;
+  font-size: .8rem;
+  text-decoration: none;
+  width: 100%;
+  padding: .8rem 1.5rem;
+  background-color: #013243;
+  border-radius: .3rem;
+}
