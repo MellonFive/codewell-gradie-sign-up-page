@@ -81,7 +81,7 @@ main {
 
 .inside-form input[id=email], 
 .inside-form input[id=password] {
-  margin-top: .5rem;
+  margin-top: .3rem;
   padding: .9rem 1rem;
   width: 100%;
   transition: .5s;
@@ -93,12 +93,16 @@ main {
   border: 2px solid #013243;
 }
 
+.inside-form input[placeholder] {
+  opacity: .6;
+}
+
 .inside-form .terms {
   margin-bottom: 1.5rem;
 }
 
 .inside-form .terms input {
-  margin-right: .5rem;  
+  margin-right: .5rem;
 }
 
 .inside-form .terms span {
@@ -108,16 +112,18 @@ main {
 .inside-form span strong {
   text-decoration: underline;
   color: #013243;
+  cursor: pointer;
 }
 
 .inside-form a {
   display: block;
   text-align: center;
   color: #FFF;
-  font-size: .8rem;
+  font-size: .9rem;
   text-decoration: none;
   width: 100%;
-  padding: .8rem 1.5rem;
+  padding: 1rem 1.5rem;
   background-color: #013243;
   border-radius: .3rem;
+  margin-top: 2.5rem;
 }
