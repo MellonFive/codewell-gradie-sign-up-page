@@ -83,6 +83,7 @@ main {
 .inside-form input[id=password] {
   margin-top: .7rem;
   padding: .7rem 1rem;
+  width: 100%;
 }
 
 .inside-form input[type=checkbox] {
