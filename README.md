@@ -17,7 +17,7 @@ They're super easy to setup and you should have your website up and running in n
 
 ### Submit your solution to Codewell
 
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
+Visit the relevant challenge on [Codewell](https://www.codewell.cc/challenges/gradie-sign-up-page--608ac420650dff001599e8ec) and click on 'Submit Solution' right under the challenge.
 Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
 
 ### Join our community on Slack
